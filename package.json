@@ -1,0 +1,21 @@
+{
+  "name": "aws-s3-uploader",
+  "version": "1.0.0",
+  "description": "A Node.js script that reads files from a specified directory and uploads them to an AWS S3 bucket. Simple and efficient for automating file transfers to the cloud.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1664.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.10.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.3",
+    "uuid": "^10.0.0"
+  }
+}
